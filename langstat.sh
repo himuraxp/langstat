@@ -2,12 +2,12 @@
 
 #Title
 clear
-echo -e "\033[1;31mLanguage statistique script bash\033[0m"
+echo -e "\033[1;31mLanguage statistique script bash\033[0m" # On ajoute de la couleur
 echo
 
 #Test if avec au moins une option presente
 if [ -z $1 ]; then
-	echo -e "\033[1;31mAu moins une option est nécessaire !\033[0m"
+	echo -e "\033[1;31mAu moins une option est nécessaire !\033[0m" # On ajoute de la couleur
 	echo "Voir l'aide avec --help"
 	exit 1
 else
